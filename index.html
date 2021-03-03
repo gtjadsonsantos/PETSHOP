@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOP</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: 
+            border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 1000px;
+            height: 190px;
+            margin: 5px 0  5px 0;
+            border: 2px solid black;
+            border-radius: 0.8em;
+        }
+        header img {
+            width: 100%;
+            height: 100%;
+            border-radius: 0.8em;
+        }
+        nav {
+            width: 1000px;
+            height: 35px;
+            border: 2px solid black;
+            border-radius: 0.8em;
+            background-color: rgb(0, 89, 13);
+            color: aliceblue;
+        }
+        
+        main { 
+            display: flex;
+        }
+
+        .main-banner {width: 195px; height: 450px;}
+        .container-articles { display: flex; flex-direction: column;  width: 800px;}
+        .container-articles section { margin: 5px 0  5px 0; height: 220px; }
+        .container-articles section article { 
+            width:  262px;
+            height: 220px;
+            margin: 3px 3px  3px 3px;
+            border: 2px solid black;
+            border-radius: 0.8em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .container-articles section article p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .container-articles section:nth-child(1) {
+            display: flex;
+        }
+        .container-articles section:nth-child(2) article {
+            display: flex;
+            width: 790px !important;
+            flex-direction: row;
+        }
+        .container-articles section:nth-child(2) article div {
+            text-align: center;
+        }
+        footer {
+            width: 1000px;
+            height: 35px;
+            display: flex;
+            background-color: rgb(0, 89, 13);
+            color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 0.8em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imgs/banner.png" alt="banner" />
+    </header>
+    <nav>
+     
+    </nav>
+    <main>
+       <div class="container-articles">
+            <section>
+                <article>
+                    <h2>Ração</h2>
+                    <p>
+                        paragrafrogrgrigrigoringriong444
+                        93i0t3i09ti30ti093i03i9t390ti344
+                        3t30it93it903t03t3098t9038t90834
+                        9t038t9380t9389t8308t9380t938t90                        
+                        <a href="/leia-mais">LEIA MAIS</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>Tosa</h2>
+                    <p>
+                        paragrafrogrgrigrigoringriong444
+                        93i0t3i09ti30ti093i03i9t390ti344
+                        3t30it93it903t03t3098t9038t90834
+                        9t038t9380t9389t8308t9380t938t90                        
+                        <a href="/leia-mais">LEIA MAIS</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>Dicas do Dia</h2>
+                    <p>
+                        paragrafrogrgrigrigoringriong444
+                        93i0t3i09ti30ti093i03i9t390ti344
+                        3t30it93it903t03t3098t9038t90834
+                        9t038t9380t9389t8308t9380t938t90
+                        <a href="/leia-mais">LEIA MAIS</a>
+                    </p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <img src="imgs/arvore.png" alt="arvore">
+                    <div>
+                        <h2>Veterinário</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more rece
+                            ntly with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </article>
+            </section>
+       </div>
+       <img src="imgs/logo.png" class="main-banner" />
+    </main>
+    <footer>
+        <p>Rua Das Laranjeiras, 30 - Centro - Florianópolis</p>
+    </footer>
+</body>
+</html>
