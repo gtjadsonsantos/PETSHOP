@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOP</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: 
+            border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 1000px;
+            height: 190px;
+            margin: 5px 0  5px 0;
+            border: 2px solid black;
+            border-radius: 0.8em;
+        }
+        header img {
+            width: 100%;
+            height: 100%;
+            border-radius: 0.8em;
+        }
+        nav {
+            width: 1000px;
+            height: 35px;
+            border: 2px solid black;
+            border-radius: 0.8em;
+            background-color: rgb(0, 89, 13);
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        main { 
+            display: flex;
+        }
+
+        .main-banner {width: 195px; height: 450px;}
+        .container-articles { 
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 0.8em;
+            margin: 5px;
+            justify-content: space-around;
+        }
+        .container-articles ul {
+            width: 720px;
+        }
+       
+       
+        footer {
+            width: 1000px;
+            height: 35px;
+            display: flex;
+            background-color: rgb(0, 89, 13);
+            color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 0.8em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imgs/banner.png" alt="banner" />
+    </header>
+    <nav>
+     <a href="index.html">Home</a>
+     <a href="produto.html">Produto</a>
+     <a href="empresa.html">Empresa</a>
+     <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+       <div class="container-articles">
+           <h1>Exemplo de listas em HTML</h1>
+           <ul>
+               <li>Bruna</li>
+               <li>Cassia</li>
+               <li>Jadson</li>
+               <li>Jessica</li>
+               <li>Bruna</li>
+               <li>Cassia</li>
+               <li>Jadson</li>
+               <li>Jessica</li>
+           </ul>
+       </div>
+       <img src="imgs/logo.png" class="main-banner" />
+    </main>
+    <footer>
+        <p>Rua Das Laranjeiras, 30 - Centro - Florianópolis</p>
+    </footer>
+</body>
+</html>
